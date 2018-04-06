@@ -1,0 +1,120 @@
+body {
+  margin:0;
+  padding:0;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+.wrapper {
+  background: url(../img/shoes.jpg) no-repeat;
+  background-size:cover;
+  background-position:center top;
+  height:90vh;
+  width:100vw;
+  border-bottom: 3px solid silver;
+}
+footer {
+  text-align:center;
+  color:black;
+  font-size:1rem;
+  font-weight:bold;
+  margin-top:15%;
+  text-transform:capitalize;
+}
+.list {
+  text-align:center;
+  background:linear-gradient(to left, rgba(255,255,255,0.3),  rgba(255,204,230,0.7));
+  background-size:100%;
+  padding: 50px;
+  margin-top:15vh;
+}
+.list ul{
+  list-style:none;
+}
+.list li{
+  display:inline;
+  margin:20em;
+  margin:0px 90px;
+}
+.list a {
+  text-decoration:none;
+  font-family:'Playfair Display', serif, helvetica;
+  font-size: 2rem;
+  font-weight:bold;
+  padding: 15px 40px;
+  color:black;
+  background:	radial-gradient(rgba(255,255,255,0.9), rgba(173,216,230,1));
+  border-radius:5%;
+  border: 2px solid transparent;
+  opacity: 0.9;
+  box-shadow: 1px 2px 4px 1px #777;
+}
+.list a:hover {
+  border: 2px #00FFFF solid;
+  opacity:1;
+}
+.list .gallery-li {
+  font-family:cursive, serif, monospace;
+  font-size:1.5rem;
+  font-weight:bold;
+}
+/* end of first section with shoes background*/
+.showcase {
+  margin-top:-60px;
+  padding:0;
+  background:url(../img/bg5.jpg);
+  background-size:cover;
+}
+.text {
+  text-align:center;
+  font-size: 3rem;
+  line-height:.9;
+}
+.text h2{
+  font-family:'Playfair Display',serif, monospace;
+  margin-bottom:1rem;
+  color:black;
+  text-shadow: -2px -2px 0 lightblue,
+               2px -2px 0 lightblue,
+               -2px 2px 0 lightblue,
+               2px 2px 0 lightblue,
+               -3px 0 0 lightblue,
+               3px 0 0 lightblue,
+               0 -3px 0 lightblue,
+               0 3px 0 lightblue;
+  text-transform:uppercase;
+}
+.text p{
+  font-family:'Pacifico', serif, monospace;
+  margin-top:0;
+  margin-bottom:0;
+  padding:0;
+  text-decoration: underline;
+  text-transform:capitalize;
+}
+.grid-layout{
+  margin:0 50px;
+  padding:0;
+  display:grid;
+}
+.grid-layout .grid {
+  display:grid;
+  grid-template-columns:repeat(2, 1fr);
+  grid-row:auto;
+  grid-gap:40px;
+  padding:2%;
+  /*border: 2px black solid;*/
+}
+.grid-layout .grid img{
+  margin:0 auto;
+  box-shadow: 1px 2px 4px 1px #777;
+}
+.grid .pic:nth-child(even){
+  margin-top:20px;
+}
+.footer {
+  text-align:center;
+  margin:0 auto;
+  color:white;
+  font-size:1.3rem;
+  font-weight:bold;
+}

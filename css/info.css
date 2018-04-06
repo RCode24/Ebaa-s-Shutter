@@ -1,0 +1,36 @@
+body {
+  background: url(../img/rings3.jpg) no-repeat center top;
+  background-size:cover;
+  margin:2%;
+    }
+section {
+  border-bottom: 2px ridge white;
+}
+h1 {
+  font-family:'El Messiri';
+}
+h2{
+  font-family:'Lemonada';
+  text-decoration:underline lightblue;
+  text-align:center;
+}
+medium {
+  font-weight:bold;
+  font-size: 1.5rem;
+  color:#007f00;
+}
+li{
+  list-style:none;
+  font-size:1.5em;
+}
+footer {
+  font-size:1.5em;
+  color:#2500ff;
+}
+span {
+  text-decoration:underline;
+}
+.black {
+  color:black;
+  font-weight:bold;
+}
